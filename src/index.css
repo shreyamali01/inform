@@ -134,7 +134,7 @@
 }
 
 .cardContainer.filter-open .card {
-  flex: 1 1 calc(50% - 20px);
+  flex: 1 1 calc(50% - 20px); 
 }
 
 .cardContainer .card {

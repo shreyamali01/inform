@@ -16,7 +16,7 @@ const Newsapp = () => {
   const [dateFilter, setDateFilter] = useState("newest");
   const [selectedSources, setSelectedSources] = useState([]);
   const [availableSources, setAvailableSources] = useState(new Set());
-  const API_KEY = "b7a747dccc8c45ad819019506cb4a368";
+  const API_KEY = process.env.REACT_APP_NEWS_API_KEY;
 
   useEffect(() => {
     const handleScroll = () => {
